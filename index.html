@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Date Diff - date difference arithmetic</title>
+<style>
+  :root { --accent:#1f6f8b; --ink:#0c2330; --paper:#eff8fb; --soft:#d9edf4; }
+  * { box-sizing:border-box; margin:0; }
+  body { font-family:Georgia, "Times New Roman", serif; background:var(--paper); color:var(--ink); line-height:1.55; }
+  main { max-width:660px; margin:0 auto; }
+  .boundary { background:#fdeaea; border-left:6px solid #b03030; color:#5c1c1c; border-radius:6px; padding:1rem 1.1rem; }
+  .boundary strong { display:block; margin-bottom:.3rem; }
+  body { padding:2.5rem 1.2rem; }
+  h1 { font-size:2.2rem; color:var(--accent); }
+  p.lede { font-size:1.12rem; margin:.9rem 0 1.6rem; }
+  .boundary { margin-bottom:1.6rem; }
+  section { background:var(--soft); border-left:5px solid var(--accent); border-radius:6px; padding:1.1rem 1.2rem; margin-bottom:1.2rem; }
+  h2 { font-size:1.18rem; margin-bottom:.5rem; }
+  section p { font-size:.98rem; }
+  a.btn { display:inline-block; margin-top:1.4rem; background:var(--accent); color:#fff; text-decoration:none; padding:.8rem 1.6rem; border-radius:999px; font-size:1.05rem; }
+  footer { margin-top:2.2rem; font-size:.85rem; color:#4b8499; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Date Diff</h1>
+  <p class="lede">From 2024-01-31 to 2024-03-01 is 30 days, yet only 1 month and 1 day.</p>
+  <div class="boundary">
+    <strong>Boundary: arithmetic only</strong>
+    Date Diff counts days and works out dates on the Gregorian calendar from the dates you type, between 1900 and 2100. It does not know time zones, holidays, business days, or what any legal or contract rule counts as a day, month or year. Check those against the source that applies.
+  </div>
+  <section>
+    <h2>The gap truth</h2>
+    <p>From 2024-01-31 to 2024-03-01 is 30 days (4 weeks and 2 days), or 1 month and 1 day in whole years, months and days. Counting both end dates it is 31 days.</p>
+  </section>
+  <section>
+    <h2>The add truth</h2>
+    <p>1 month after 2024-01-31 (a Wednesday) is 2024-02-29, a Thursday (day 31 does not exist in that month, so it lands on the month's last day).</p>
+  </section>
+  <section>
+    <h2>The birthday truth</h2>
+    <p>Born 1990-05-15, the age on 2024-05-14 is 33 years, 11 months and 29 days. The next birthday is 2024-05-15, a Wednesday, in 1 day, when the age is 34.</p>
+  </section>
+  <a class="btn" href="app.html">Run your numbers</a>
+  <footer>Date Diff is exact arithmetic over the numbers you enter, nothing more.</footer>
+</main>
+</body>
+</html>
