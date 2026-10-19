@@ -1,0 +1,562 @@
+[
+ {
+  "fn": "gapTruth",
+  "args": [
+   "2024-01-31",
+   "2024-03-01"
+  ],
+  "expected": "From 2024-01-31 to 2024-03-01 is 30 days (4 weeks and 2 days), or 1 month and 1 day in whole years, months and days. Counting both end dates it is 31 days."
+ },
+ {
+  "fn": "gapTruth",
+  "args": [
+   "2024-02-28",
+   "2024-03-01"
+  ],
+  "expected": "From 2024-02-28 to 2024-03-01 is 2 days (0 weeks and 2 days), or 2 days in whole years, months and days. Counting both end dates it is 3 days."
+ },
+ {
+  "fn": "gapTruth",
+  "args": [
+   "2023-02-28",
+   "2023-03-01"
+  ],
+  "expected": "From 2023-02-28 to 2023-03-01 is 1 day (0 weeks and 1 day), or 1 day in whole years, months and days. Counting both end dates it is 2 days."
+ },
+ {
+  "fn": "gapTruth",
+  "args": [
+   "2024-05-15",
+   "2024-05-15"
+  ],
+  "expected": "From 2024-05-15 to 2024-05-15 is 0 days (0 weeks and 0 days), or 0 days in whole years, months and days. Counting both end dates it is 1 day."
+ },
+ {
+  "fn": "gapTruth",
+  "args": [
+   "2024-05-15",
+   "2024-05-16"
+  ],
+  "expected": "From 2024-05-15 to 2024-05-16 is 1 day (0 weeks and 1 day), or 1 day in whole years, months and days. Counting both end dates it is 2 days."
+ },
+ {
+  "fn": "gapTruth",
+  "args": [
+   "2000-01-01",
+   "2024-12-31"
+  ],
+  "expected": "From 2000-01-01 to 2024-12-31 is 9131 days (1304 weeks and 3 days), or 24 years, 11 months and 30 days in whole years, months and days. Counting both end dates it is 9132 days."
+ },
+ {
+  "fn": "gapTruth",
+  "args": [
+   "1900-01-01",
+   "2100-12-31"
+  ],
+  "expected": "From 1900-01-01 to 2100-12-31 is 73413 days (10487 weeks and 4 days), or 200 years, 11 months and 30 days in whole years, months and days. Counting both end dates it is 73414 days."
+ },
+ {
+  "fn": "gapTruth",
+  "args": [
+   "2024-12-31",
+   "2025-01-01"
+  ],
+  "expected": "From 2024-12-31 to 2025-01-01 is 1 day (0 weeks and 1 day), or 1 day in whole years, months and days. Counting both end dates it is 2 days."
+ },
+ {
+  "fn": "gapTruth",
+  "args": [
+   "2023-01-31",
+   "2023-02-28"
+  ],
+  "expected": "From 2023-01-31 to 2023-02-28 is 28 days (4 weeks and 0 days), or 1 month in whole years, months and days. Counting both end dates it is 29 days."
+ },
+ {
+  "fn": "gapTruth",
+  "args": [
+   "2023-01-31",
+   "2023-03-31"
+  ],
+  "expected": "From 2023-01-31 to 2023-03-31 is 59 days (8 weeks and 3 days), or 2 months in whole years, months and days. Counting both end dates it is 60 days."
+ },
+ {
+  "fn": "gapTruth",
+  "args": [
+   "2024-02-29",
+   "2025-02-28"
+  ],
+  "expected": "From 2024-02-29 to 2025-02-28 is 365 days (52 weeks and 1 day), or 1 year in whole years, months and days. Counting both end dates it is 366 days."
+ },
+ {
+  "fn": "gapTruth",
+  "args": [
+   "2024-02-29",
+   "2028-02-29"
+  ],
+  "expected": "From 2024-02-29 to 2028-02-29 is 1461 days (208 weeks and 5 days), or 4 years in whole years, months and days. Counting both end dates it is 1462 days."
+ },
+ {
+  "fn": "gapTruth",
+  "args": [
+   "2020-01-01",
+   "2021-01-01"
+  ],
+  "expected": "From 2020-01-01 to 2021-01-01 is 366 days (52 weeks and 2 days), or 1 year in whole years, months and days. Counting both end dates it is 367 days."
+ },
+ {
+  "fn": "gapTruth",
+  "args": [
+   "2024-03-10",
+   "2024-03-17"
+  ],
+  "expected": "From 2024-03-10 to 2024-03-17 is 7 days (1 week and 0 days), or 7 days in whole years, months and days. Counting both end dates it is 8 days."
+ },
+ {
+  "fn": "gapTruth",
+  "args": [
+   " 2024-03-10 ",
+   "2024-03-24"
+  ],
+  "expected": "From 2024-03-10 to 2024-03-24 is 14 days (2 weeks and 0 days), or 14 days in whole years, months and days. Counting both end dates it is 15 days."
+ },
+ {
+  "fn": "gapTruth",
+  "args": [
+   "2024-03-31",
+   "2024-04-30"
+  ],
+  "expected": "From 2024-03-31 to 2024-04-30 is 30 days (4 weeks and 2 days), or 1 month in whole years, months and days. Counting both end dates it is 31 days."
+ },
+ {
+  "fn": "gapTruth",
+  "args": [
+   "2024-03-02",
+   "2024-03-01"
+  ],
+  "expected": "ERR:the end date must be on or after the start date"
+ },
+ {
+  "fn": "gapTruth",
+  "args": [
+   "2023-02-30",
+   "2023-03-01"
+  ],
+  "expected": "ERR:date must be a real calendar date written YYYY-MM-DD, from 1900-01-01 to 2100-12-31"
+ },
+ {
+  "fn": "gapTruth",
+  "args": [
+   "2024-1-5",
+   "2024-03-01"
+  ],
+  "expected": "ERR:date must be a real calendar date written YYYY-MM-DD, from 1900-01-01 to 2100-12-31"
+ },
+ {
+  "fn": "gapTruth",
+  "args": [
+   "1899-12-31",
+   "2024-03-01"
+  ],
+  "expected": "ERR:date must be a real calendar date written YYYY-MM-DD, from 1900-01-01 to 2100-12-31"
+ },
+ {
+  "fn": "gapTruth",
+  "args": [
+   "2024-03-01",
+   "2101-01-01"
+  ],
+  "expected": "ERR:date must be a real calendar date written YYYY-MM-DD, from 1900-01-01 to 2100-12-31"
+ },
+ {
+  "fn": "gapTruth",
+  "args": [
+   "abc",
+   "2024-03-01"
+  ],
+  "expected": "ERR:date must be a real calendar date written YYYY-MM-DD, from 1900-01-01 to 2100-12-31"
+ },
+ {
+  "fn": "gapTruth",
+  "args": [
+   "2024-13-01",
+   "2024-03-01"
+  ],
+  "expected": "ERR:date must be a real calendar date written YYYY-MM-DD, from 1900-01-01 to 2100-12-31"
+ },
+ {
+  "fn": "gapTruth",
+  "args": [
+   "1900-02-29",
+   "2024-03-01"
+  ],
+  "expected": "ERR:date must be a real calendar date written YYYY-MM-DD, from 1900-01-01 to 2100-12-31"
+ },
+ {
+  "fn": "addTruth",
+  "args": [
+   "2024-01-31",
+   "1",
+   "month",
+   "after"
+  ],
+  "expected": "1 month after 2024-01-31 (a Wednesday) is 2024-02-29, a Thursday (day 31 does not exist in that month, so it lands on the month's last day)."
+ },
+ {
+  "fn": "addTruth",
+  "args": [
+   "2024-01-31",
+   "30",
+   "day",
+   "after"
+  ],
+  "expected": "30 days after 2024-01-31 (a Wednesday) is 2024-03-01, a Friday."
+ },
+ {
+  "fn": "addTruth",
+  "args": [
+   "2024-03-01",
+   "1",
+   "day",
+   "before"
+  ],
+  "expected": "1 day before 2024-03-01 (a Friday) is 2024-02-29, a Thursday."
+ },
+ {
+  "fn": "addTruth",
+  "args": [
+   "2024-02-29",
+   "1",
+   "year",
+   "after"
+  ],
+  "expected": "1 year after 2024-02-29 (a Thursday) is 2025-02-28, a Friday (day 29 does not exist in that month, so it lands on the month's last day)."
+ },
+ {
+  "fn": "addTruth",
+  "args": [
+   "2024-02-29",
+   "4",
+   "year",
+   "after"
+  ],
+  "expected": "4 years after 2024-02-29 (a Thursday) is 2028-02-29, a Tuesday."
+ },
+ {
+  "fn": "addTruth",
+  "args": [
+   "2024-05-15",
+   "2",
+   "week",
+   "after"
+  ],
+  "expected": "2 weeks after 2024-05-15 (a Wednesday) is 2024-05-29, a Wednesday."
+ },
+ {
+  "fn": "addTruth",
+  "args": [
+   "2024-05-15",
+   "0",
+   "day",
+   "after"
+  ],
+  "expected": "0 days after 2024-05-15 (a Wednesday) is 2024-05-15, a Wednesday."
+ },
+ {
+  "fn": "addTruth",
+  "args": [
+   "2024-05-31",
+   "3",
+   "month",
+   "before"
+  ],
+  "expected": "3 months before 2024-05-31 (a Friday) is 2024-02-29, a Thursday (day 31 does not exist in that month, so it lands on the month's last day)."
+ },
+ {
+  "fn": "addTruth",
+  "args": [
+   "2024-12-31",
+   "1",
+   "day",
+   "after"
+  ],
+  "expected": "1 day after 2024-12-31 (a Tuesday) is 2025-01-01, a Wednesday."
+ },
+ {
+  "fn": "addTruth",
+  "args": [
+   "2024-01-01",
+   "1",
+   "day",
+   "before"
+  ],
+  "expected": "1 day before 2024-01-01 (a Monday) is 2023-12-31, a Sunday."
+ },
+ {
+  "fn": "addTruth",
+  "args": [
+   "2024-03-31",
+   "1",
+   "month",
+   "before"
+  ],
+  "expected": "1 month before 2024-03-31 (a Sunday) is 2024-02-29, a Thursday (day 31 does not exist in that month, so it lands on the month's last day)."
+ },
+ {
+  "fn": "addTruth",
+  "args": [
+   "2000-01-01",
+   "100000",
+   "day",
+   "after"
+  ],
+  "expected": "ERR:that lands outside 1900 to 2100"
+ },
+ {
+  "fn": "addTruth",
+  "args": [
+   "2000-01-01",
+   "1200",
+   "month",
+   "after"
+  ],
+  "expected": "1200 months after 2000-01-01 (a Saturday) is 2100-01-01, a Friday."
+ },
+ {
+  "fn": "addTruth",
+  "args": [
+   "2100-12-31",
+   "1",
+   "day",
+   "after"
+  ],
+  "expected": "ERR:that lands outside 1900 to 2100"
+ },
+ {
+  "fn": "addTruth",
+  "args": [
+   "1900-01-01",
+   "1",
+   "day",
+   "before"
+  ],
+  "expected": "ERR:that lands outside 1900 to 2100"
+ },
+ {
+  "fn": "addTruth",
+  "args": [
+   "2024-05-15",
+   "100",
+   "year",
+   "after"
+  ],
+  "expected": "ERR:that lands outside 1900 to 2100"
+ },
+ {
+  "fn": "addTruth",
+  "args": [
+   "2024-05-15",
+   "1.5",
+   "day",
+   "after"
+  ],
+  "expected": "ERR:count must be a whole number from 0 to 100000"
+ },
+ {
+  "fn": "addTruth",
+  "args": [
+   "2024-05-15",
+   "-1",
+   "day",
+   "after"
+  ],
+  "expected": "ERR:count must be a whole number from 0 to 100000"
+ },
+ {
+  "fn": "addTruth",
+  "args": [
+   "2024-05-15",
+   "100001",
+   "day",
+   "after"
+  ],
+  "expected": "ERR:count must be a whole number from 0 to 100000"
+ },
+ {
+  "fn": "addTruth",
+  "args": [
+   "2024-05-15",
+   "5",
+   "fortnight",
+   "after"
+  ],
+  "expected": "ERR:unit must be one of day, week, month, year"
+ },
+ {
+  "fn": "addTruth",
+  "args": [
+   "2024-05-15",
+   "5",
+   "day",
+   "around"
+  ],
+  "expected": "ERR:direction must be after or before"
+ },
+ {
+  "fn": "addTruth",
+  "args": [
+   "nope",
+   "5",
+   "day",
+   "after"
+  ],
+  "expected": "ERR:date must be a real calendar date written YYYY-MM-DD, from 1900-01-01 to 2100-12-31"
+ },
+ {
+  "fn": "addTruth",
+  "args": [
+   "2024-05-15",
+   "1",
+   "day",
+   "after"
+  ],
+  "expected": "1 day after 2024-05-15 (a Wednesday) is 2024-05-16, a Thursday."
+ },
+ {
+  "fn": "addTruth",
+  "args": [
+   "2023-01-29",
+   "1",
+   "month",
+   "after"
+  ],
+  "expected": "1 month after 2023-01-29 (a Sunday) is 2023-02-28, a Tuesday (day 29 does not exist in that month, so it lands on the month's last day)."
+ },
+ {
+  "fn": "birthdayTruth",
+  "args": [
+   "1990-05-15",
+   "2024-05-14"
+  ],
+  "expected": "Born 1990-05-15, the age on 2024-05-14 is 33 years, 11 months and 29 days. The next birthday is 2024-05-15, a Wednesday, in 1 day, when the age is 34."
+ },
+ {
+  "fn": "birthdayTruth",
+  "args": [
+   "1990-05-15",
+   "2024-05-15"
+  ],
+  "expected": "Born 1990-05-15, the age on 2024-05-15 is 34 years. The birthday is today, 2024-05-15, a Wednesday, and the age is 34."
+ },
+ {
+  "fn": "birthdayTruth",
+  "args": [
+   "1990-05-15",
+   "2024-05-16"
+  ],
+  "expected": "Born 1990-05-15, the age on 2024-05-16 is 34 years and 1 day. The next birthday is 2025-05-15, a Thursday, in 364 days, when the age is 35."
+ },
+ {
+  "fn": "birthdayTruth",
+  "args": [
+   "2000-02-29",
+   "2023-03-01"
+  ],
+  "expected": "Born 2000-02-29, the age on 2023-03-01 is 23 years and 1 day. The next birthday is 2024-02-29, a Thursday, in 365 days, when the age is 24. A 29 Feb birthday is counted on 28 Feb in years without a 29 Feb."
+ },
+ {
+  "fn": "birthdayTruth",
+  "args": [
+   "2000-02-29",
+   "2024-02-29"
+  ],
+  "expected": "Born 2000-02-29, the age on 2024-02-29 is 24 years. The birthday is today, 2024-02-29, a Thursday, and the age is 24. A 29 Feb birthday is counted on 28 Feb in years without a 29 Feb."
+ },
+ {
+  "fn": "birthdayTruth",
+  "args": [
+   "2000-02-29",
+   "2024-02-28"
+  ],
+  "expected": "Born 2000-02-29, the age on 2024-02-28 is 23 years, 11 months and 30 days. The next birthday is 2024-02-29, a Thursday, in 1 day, when the age is 24. A 29 Feb birthday is counted on 28 Feb in years without a 29 Feb."
+ },
+ {
+  "fn": "birthdayTruth",
+  "args": [
+   "2024-05-15",
+   "2024-05-15"
+  ],
+  "expected": "Born 2024-05-15, the age on 2024-05-15 is 0 days. The birthday is today, 2024-05-15, a Wednesday, and the age is 0."
+ },
+ {
+  "fn": "birthdayTruth",
+  "args": [
+   "2024-05-15",
+   "2024-05-16"
+  ],
+  "expected": "Born 2024-05-15, the age on 2024-05-16 is 1 day. The next birthday is 2025-05-15, a Thursday, in 364 days, when the age is 1."
+ },
+ {
+  "fn": "birthdayTruth",
+  "args": [
+   "1900-01-01",
+   "2100-12-31"
+  ],
+  "expected": "Born 1900-01-01, the age on 2100-12-31 is 200 years, 11 months and 30 days. The next birthday is 2101-01-01, a Saturday, in 1 day, when the age is 201."
+ },
+ {
+  "fn": "birthdayTruth",
+  "args": [
+   "1990-12-31",
+   "2024-12-31"
+  ],
+  "expected": "Born 1990-12-31, the age on 2024-12-31 is 34 years. The birthday is today, 2024-12-31, a Tuesday, and the age is 34."
+ },
+ {
+  "fn": "birthdayTruth",
+  "args": [
+   "1990-12-31",
+   "2024-12-30"
+  ],
+  "expected": "Born 1990-12-31, the age on 2024-12-30 is 33 years, 11 months and 30 days. The next birthday is 2024-12-31, a Tuesday, in 1 day, when the age is 34."
+ },
+ {
+  "fn": "birthdayTruth",
+  "args": [
+   "1990-01-01",
+   "2024-12-31"
+  ],
+  "expected": "Born 1990-01-01, the age on 2024-12-31 is 34 years, 11 months and 30 days. The next birthday is 2025-01-01, a Wednesday, in 1 day, when the age is 35."
+ },
+ {
+  "fn": "birthdayTruth",
+  "args": [
+   "2000-02-29",
+   "2100-12-31"
+  ],
+  "expected": "Born 2000-02-29, the age on 2100-12-31 is 100 years, 10 months and 2 days. The next birthday is 2101-02-28, a Monday, in 59 days, when the age is 101. A 29 Feb birthday is counted on 28 Feb in years without a 29 Feb."
+ },
+ {
+  "fn": "birthdayTruth",
+  "args": [
+   "2024-05-16",
+   "2024-05-15"
+  ],
+  "expected": "ERR:the birth date must be on or before the other date"
+ },
+ {
+  "fn": "birthdayTruth",
+  "args": [
+   "x",
+   "2024-05-15"
+  ],
+  "expected": "ERR:date must be a real calendar date written YYYY-MM-DD, from 1900-01-01 to 2100-12-31"
+ },
+ {
+  "fn": "birthdayTruth",
+  "args": [
+   "1990-05-15",
+   "2101-01-01"
+  ],
+  "expected": "ERR:date must be a real calendar date written YYYY-MM-DD, from 1900-01-01 to 2100-12-31"
+ }
+]
